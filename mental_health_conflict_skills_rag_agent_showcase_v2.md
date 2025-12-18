@@ -1,15 +1,13 @@
-# Bullying + CBT + Conflict Skills AI Chatbot (RAG, Google Colab)
+# Evidence-Cited-Mental-Health-Conflict-Skills-AI-Chatbot-RAG-
 
-Author: Pedro Yáñez Meléndez
+Author: Pedro Yanez Melendez
 
-## What I built
+## What was built
 - An AI Q&A chatbot focused on bullying response skills, CBT-based emotion regulation, conflict resolution, negotiation, assertiveness, boundaries, and de-escalation.
 - It uses Retrieval-Augmented Generation (RAG): it retrieves relevant passages from reputable PDFs and selected web pages, then generates a short answer with citations.
 - It supports persona-aware questions (age + role) so answers fit the situation.
-
-## Why I built it
-- To showcase end-to-end AI engineering in Google Colab using only open-source models and public sources.
-- To produce practical, evidence-cited guidance people can use in real conversations.
+- It showcases end-to-end AI engineering in Google Colab using only open-source models and public sources.
+- It produces practical, evidence-cited guidance people can use in real conversations.
 
 ## How it works
 - Collect public PDFs (CBT modules, coping skills, anger management, bullying resources).
@@ -27,7 +25,7 @@ Author: Pedro Yáñez Meléndez
   - Markdown report with persona-based questions and cited answers
   - PPTX slides with the same Q&A for easy sharing
 
-## Skills demonstrated
+## Skills used
 - Data ingestion (PDF + web), text cleaning, chunking, embeddings
 - FAISS vector search, retrieval + prompt assembly
 - Local open-source LLM inference in Colab (no paid API)
@@ -38,6 +36,6 @@ Author: Pedro Yáñez Meléndez
 - Ingesting many documents increases build time and RAM usage.
 - Some sites block scraping (HTTP 403), so alternative mirrors or PDF copies may be needed.
 
-## How I would improve it next
+## How it could be improved next
 - Add true multimodal ingestion (figures/tables/page images) with citations.
 - Keep a smaller curated library so the full run finishes faster while staying high quality.
